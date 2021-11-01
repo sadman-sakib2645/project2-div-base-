@@ -1,0 +1,997 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clr{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+
+
+/*  ======================================
+    Common css ends
+========================================= */
+
+.Address{
+    width: 100%;
+    height: 50px;
+    background-color:#111;
+}
+.Address .address-content{
+    width: 960px;
+    height: 50px;
+    background-color: #f6faf5;
+    margin: 0 auto;
+}
+.Address .address-content .content1{
+    width: 360px;
+    height: 35px;
+    background-color: #111;
+    float: left;
+    padding-top: 15px;
+
+}
+.Address .address-content .content1 ul{
+    list-style: none;
+}
+.Address .address-content .content1 ul li{
+    float: left;
+}
+.Address .address-content .content1 ul li a{
+    margin: 0 5px;
+    color: #fff;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+.Address .address-content .content1 ul li:hover a{
+    color: red;
+}
+
+
+.Address .address-content .content2{
+    width: 500px;
+    height: 50px;
+    background-color: #111;
+    float: left;
+}
+.Address .address-content .content2 ul{
+    list-style: none;
+    float: right;
+}
+.Address .address-content .content2 ul li{
+    float: left;
+}
+.Address .address-content .content2 ul li a{
+    line-height: 70px;
+    padding: 0 5px;
+}
+
+.Address .address-content .content3{
+    width: 100px;
+    height: 50px;
+    background-color: #111;
+    float: left;
+}
+.Address .address-content .content3 a{
+    color:#fff;
+    text-transform: capitalize;
+    background-color: red;
+    padding: 0 10px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all linear 0.8s;
+    -webkit-transition: all linear 0.8s;
+    -moz-transition: all linear 0.8s;
+    -ms-transition: all linear 0.8s;
+    -o-transition: all linear 0.8s;
+}
+.Address .address-content .content3 a:hover{
+    background-color: royalblue;
+   
+}
+
+
+/* ===========================================
+    Address css ends
+=============================================*/
+
+.header-bg{
+    width: 100%;
+    height: 80px;
+    background-color: #111;
+}
+.header-bg .header-content{
+    width: 960px;
+    height: 80px;
+   
+    margin: 0 auto;
+}
+.header-bg .header-content .logo{
+    width: 160px;
+    height: 80px;
+   
+    float: left;
+}
+.header-bg .header-content .logo a img{
+    width: 100%;
+    margin-top: 20px;
+}
+    
+    
+.header-bg .header-content .menu-list{
+    width: 600px;
+    height: 80px;
+    
+    float: left;
+}
+.header-bg .header-content .menu-list ul{
+    list-style: none;
+    float: right;
+}
+
+.header-bg .header-content .menu-list ul li{
+    float: left;
+}
+
+.header-bg .header-content .menu-list ul li a{
+    
+    line-height: 80px;
+    padding: 0 10px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+.header-bg .header-content .menu-list ul li:hover a{
+    color: blue;
+}
+
+.header-bg .header-content .menu-btn{
+    width: 200px;
+    height: 80px;
+   
+    float: left;
+}
+.header-bg .header-content .menu-btn a{
+   color: #fff;
+   background-color: #fd0606;
+   padding: 0 35px;
+   line-height: 60px;
+   display: inline-block;
+   margin-top: 10px;
+   margin-left: 30px;
+   text-transform: capitalize;
+   transition:all linear 0.5s ;
+   -webkit-transition:all linear 0.5s ;
+   -moz-transition:all linear 0.5s ;
+   -ms-transition:all linear 0.5s ;
+   -o-transition:all linear 0.5s ;
+}
+
+.header-bg .header-content .menu-btn a:hover{
+    color: #111;
+    background-color: #fdfafa;
+    
+}
+/* =====================================
+    header css ends
+======================================*/
+
+.banner-bg{
+    width: 100%;
+    height: 700px;
+    background: url(../Images/banner.jpeg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.banner-bg .banner-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(81, 129, 218, 0.4);
+}
+.banner-bg .banner-overlay .banner-content{
+    width: 960px;
+    height:700px ;
+       margin: 0 auto;
+}
+.banner-bg .banner-overlay .banner-content p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 25px;
+    padding-top: 300px;
+    padding-bottom: 10px;   
+    padding-left: 370px;
+    
+   }
+   
+  
+.banner-bg .banner-overlay .banner-content h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    padding-right: 200px;
+   
+    padding-left: 170px;
+}
+/* ==================================================
+
+    banner css ends
+    
+===================================================*/
+
+.service{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+.service .service-content{
+    width: 960px;
+    height: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.service .service-content .img-content{
+    width:450px ;
+    height:600px ;
+    background-color: #fff;
+    float: left;
+    margin-right: 60px;
+    background-image: url(../Images/img-content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+             
+}
+
+.service .service-content .p-content{
+    width: 450px;
+    height: 600px;
+    /* background-color: rgb(10, 243, 68); */
+    float: left;
+}
+.service .service-content .p-content .p1{
+    background: rgb(248, 228, 228);
+    color: red;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 13px;
+   margin-bottom: 50px;
+   margin-top: 40px;
+}
+.service .service-content .p-content h2{
+    color: #111;
+    font-size: 30px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.service .service-content .p-content .p2{
+   color: rgba(8, 7, 7, 0.50); 
+   font-size:13px ;
+   padding-right: 80px;
+   padding-bottom: 60px;
+}
+.service .service-content .p-content .p3{
+   padding-right: 40px;
+   padding-bottom: 20px;
+  
+    display: inline-block
+
+    
+}
+.service .service-content .p-content .p4{
+    display: inline-block
+}
+.service .service-content .p-content .p5{
+    padding-right: 33px;
+    display: inline-block
+}
+.service .service-content .p-content .p6{
+    display: inline-block
+}
+.service .service-content .p-content .p7{
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+}
+.service .service-content .p-content .p8{
+   display: inline-block;
+   background-color: rgb(252, 10, 10);
+   color: rgb(252, 250, 252);
+   text-transform: uppercase;
+   padding: 20px 35px;
+   margin-left: 15px;
+   font-size: 11px;
+   transition:all linear 0.3s ;
+   -webkit-transition:all linear 0.3s ;
+   -moz-transition:all linear 0.3s ;
+   -ms-transition:all linear 0.3s ;
+   -o-transition:all linear 0.3s ;
+}
+.service .service-content .p-content .p8:hover{
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #111;
+    box-sizing: border-box;
+   
+}
+    /*=============================== 
+        Service css ends
+   ================================ */
+   .data{
+       width: 100%;
+       height: 150px;
+       background-color: #fff;
+       margin: 150px 0;
+   }
+   .data .data-content{
+       width: 960px;
+       height: 150px;
+       background-color: #fff;
+       margin: 0 auto;
+   }
+   .data .data-content .data-content1{
+       width: 150px;
+       height: 150px;
+       background-color: #fff;
+       float: left;
+       margin-right: 100px;
+       margin-left: 30px;
+      
+   }
+   .data .data-content .data-content1 .img1{
+      padding-left: 50px;
+   }
+   .data .data-content .data-content1 .number{
+       text-align: center;
+       font-size: 35px;
+       padding: 10px 0;
+           
+   }
+   .data .data-content .data-content1 .dcp{
+       text-align: center;
+       font-size: 12px;
+     
+   }
+
+   .data .data-content .data-content2{
+       width: 150px;
+       height: 150px;
+       
+       float: left;
+       margin-right: 100px;
+
+   }
+
+   .data .data-content .data-content2 .img2{
+    padding-left: 50px;
+ }
+ .data .data-content .data-content2 .number2{
+     text-align: center;
+     font-size: 35px;
+     padding: 10px 0;
+         
+ }
+ .data .data-content .data-content2 .dcp2{
+     text-align: center;
+     font-size: 12px;
+   
+ }
+   .data .data-content .data-content3{
+       width: 150px;
+       height: 150px;
+       
+       float: left;
+       margin-right: 100px;
+   }
+
+   .data .data-content .data-content3 .img3{
+    padding-left: 50px;
+ }
+ .data .data-content .data-content3 .number3{
+     text-align: center;
+     font-size: 35px;
+     padding: 10px 0;
+         
+ }
+ .data .data-content .data-content3 .dcp3{
+     text-align: center;
+     font-size: 12px;
+   
+ }
+
+
+   .data .data-content .data-content4{
+       width: 150px;
+       height: 150px;
+       
+       float: left;
+       margin-right: 30px;
+   }
+   .data .data-content .data-content4 .img4{
+    padding-left: 50px;
+ }
+ .data .data-content .data-content4 .number4{
+     text-align: center;
+     font-size: 35px;
+     padding: 10px 0;
+         
+ }
+ .data .data-content .data-content4 .dcp4{
+     text-align: center;
+     font-size: 12px;
+   
+ }
+
+/* ===================================
+ Data row css end
+======================================*/
+
+.aboutus{
+    width: 100%;
+    height: 500px;
+    
+}
+.aboutus .aboutus-content{
+    width: 960px;
+    height: 500px;
+  
+    margin: 0 auto;
+}
+.aboutus .aboutus-content .abs-content1{
+    width: 430px;
+    height: 500px;
+  
+    float: left;
+    margin-right: 100px;
+}
+.aboutus .aboutus-content .abs-content1 .smallp{
+    color: red;
+    
+    padding-bottom: 20px;
+}
+.aboutus .aboutus-content .abs-content1 .smallh{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.aboutus .aboutus-content .abs-content1 .smallp2{
+    color: rgba(8, 8, 8, 0.50);
+    font-size: 13px;
+   padding-bottom: 25px;
+}  
+.aboutus .aboutus-content .abs-content1 .smallp3{
+    color:rgba(8, 8, 8, 0.50);
+    padding-bottom: 15px;
+    font-size: 13px;
+   
+}
+.aboutus .aboutus-content .abs-content1 .smp4 img{
+    width: 430px;
+    height: 215px;
+}
+
+
+.aboutus .aboutus-content .abs-content2{
+    width: 430px;
+    height: 500px;
+    
+    float: left;
+}
+.aboutus .aboutus-content .abs-content2 .big{
+    width: 210px;
+    height:500px ;
+ 
+    float: left;
+    background-image: url(../Images/big1.jpeg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.aboutus .aboutus-content .abs-content2 .big1{
+    width: 210px;
+    height:500px ;
+   
+    float: left;
+    margin-left: 10px;
+    
+}
+.aboutus .aboutus-content .abs-content2 .big1 .sm1{
+    width: 210px;
+    height:245px ;
+   
+    background-image: url(../Images/big.jpeg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.aboutus .aboutus-content .abs-content2 .big1 .sm2{
+    width: 210px;
+    height:245px ;
+    
+    margin-top: 10px;
+    background-image: url(../Images/big2.jpeg);
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+    background-size: cover;
+}
+/* =======================
+    about css end
+=========================*/
+
+.commoni{
+    display: inline-block;
+ margin: 30px 80px;
+}
+.commonh{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+  transition: all linear 0.5s;
+  -webkit-transition:all linear 0.3s ;
+   -moz-transition:all linear 0.3s ;
+   -ms-transition:all linear 0.3s ;
+   -o-transition:all linear 0.3s ;
+}
+.commonh:hover{
+    color: red;
+}
+.commonp{
+    text-align: center;
+    color: rgba(8, 7, 7, 0.50);
+}
+
+
+
+
+
+/* ======================================================================
+    common main focus
+========================================================================*/
+
+.main-focus{
+    width: 100%;
+    height: 500px;
+    
+    margin: 200px 0;
+}
+.main-focus .mainf-content{
+    width: 960px;
+    height: 500px;
+    
+    margin: 0 auto;
+}
+.main-focus .mainf-content .mainc-heading{
+    width: 960px;
+    height: 150px;
+   
+}
+.main-focus .mainf-content .mainc-heading .mhp{
+    color: red;
+    padding: 10px 10px;
+   
+    
+    font-size: 12px;  
+    text-align: center;
+
+}
+
+.main-focus .mainf-content .mainc-heading .mhh{
+ font-size: 40px;
+ text-align: center;
+}
+
+.main-focus .mainf-content .mainc-service{
+    width: 960px;
+    height: 350px;
+   
+}
+
+.main-focus .mainf-content .mainc-service .ms-content1{
+    width: 300px;
+    height: 350px;
+    
+    float: left;
+   
+}
+
+
+.main-focus .mainf-content .mainc-service .ms-content2{
+    width: 300px;
+    height: 350px;
+   
+    float: left;
+    margin: 0 30px;
+}
+.main-focus .mainf-content .mainc-service .ms-content3{
+    width: 300px;
+    height: 350px;
+    
+    float: left;
+}
+/* =========================================
+        main focus css ends
+===========================================*/
+
+.mr{
+    margin-right: 20px;
+}
+.mt{
+    margin-top: 50px;
+}
+.middle{
+    width: 100px;
+    height: 100px;
+    background-color: #fbfafc;
+    border-radius: 50px 50px; 
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+.imp{
+    font: size 15px;
+   
+    padding-top:40px;
+    text-transform: capitalize;
+}
+.mhi{
+    width: 70%;
+    height: 60%;
+   
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+
+
+/* =========================================
+        aminities common css ends
+===========================================*/
+
+
+.aminities{
+    width: 100%;
+    height: 620px;
+    
+}
+.aminities .aminities-content{
+    width: 960px;
+    height: 620px;
+   
+    margin: 0 auto;
+   
+}
+
+
+.aminities .aminities-content .heading{
+    width: 960px;
+    height: 120px;
+   
+    margin: 0 auto;
+}
+.aminities .aminities-content .heading .c1{
+    color: #f80a0a;
+    font-size: 13px;
+   text-transform: capitalize;
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.aminities .aminities-content .heading .c2{
+   
+    font-size: 50px;
+   text-transform: capitalize;
+    
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.aminities .aminities-content .banner{
+    width: 960px;
+    height: 500px;
+  
+    margin: 0 auto;
+}
+.banner .item{
+    width: 225px;
+    height: 225px;
+    border-radius: 20px;
+    
+    float: left;
+    position: relative;
+    transition: all linear 0.20s;
+   
+}
+.banner .item:hover{
+    color: white;
+    background-color: red;
+}
+
+
+/* ============================
+
+aminities css ends
+
+==================================*/
+
+.mr20{
+    margin-right: 20px;
+}
+/* ============================
+
+common css ends
+
+==================================*/
+
+.end{
+    width: 100%;
+    height: 550px;
+   background-color: #171B2a;
+  
+   
+  
+}
+.end .footer{
+    width: 1300px;
+    height: 550px;
+  
+    margin: 300px auto;
+    position: relative;
+}
+.end .footer .footer-heading-content{
+    width: 1000px;
+    height: 200px;
+    background: rgb(201, 55, 55);
+    position: absolute;
+    top: -100px;
+    left: 150px;
+
+}
+.end .footer .footer-heading-content .fhc-p{
+    color: white;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.end .footer .footer-heading-content .fhc-p1{
+    
+    color: rgb(6, 6, 7);
+    background-color: #fff;
+    /* display: inline-block; */
+   position: absolute;
+   right: 50px;
+   padding: 20px 40px;
+   text-transform: capitalize;
+  transition: all linear 0.3s;
+}
+.end .footer .footer-heading-content .fhc-p1:hover{
+    color: white;
+    background: #000;
+}
+
+.end .footer .footer-heading-content .fhc-p2{
+    color: white;
+    position: absolute;
+   bottom: 40px;
+   text-transform: capitalize;
+   font-size: 20px;
+   margin-left: 20px;
+}
+
+
+.end .footer .footer-content{
+    width: 1300px;
+    height: 400px;
+    ;
+    margin-top: 150px;
+    position: absolute;
+    
+    
+   }
+   .end .footer .footer-content .content1{
+       width: 300px;
+       height: 400px;
+       
+       float: left;
+       margin-right: 40px;
+   }
+   .end .footer .footer-content .content1 .c1{
+       color: white;
+       font-size: 20px;
+       text-align: left;
+       margin-top: 20px;
+       margin-bottom: 30px;
+   }
+   .end .footer .footer-content .content1 .aa{
+       color: white;
+       display: inline-block;
+       font-size: 19px;
+       margin-bottom: 15px;
+      
+   }
+   
+   .end .footer .footer-content .content1 .a1{
+       color: wheat;
+      padding-right: 150px;
+      padding-bottom: 20px;
+      display: inline-block;
+      transition: all linear 0.2s;
+   }
+   .end .footer .footer-content .content1 .a1:hover{
+    color: red;
+   }
+   .end .footer .footer-content .content1 .a2{
+       color white;
+       padding-right: 80px;
+       transition: all linear 0.2s;
+   }
+   .end .footer .footer-content .content1 .a2:hover{
+    color: red;
+   }
+                            /* ============================================
+
+                            content 1 css ends
+
+                            ===============================================*/
+
+   .common-p{
+       color: white;
+       font-size: 20px;
+       padding-bottom: 20px;
+       transition: all linear 0.3s;
+       -webkit-transition: all linear 0.3s;
+       -moz-transition: all linear 0.3s;
+       -ms-transition: all linear 0.3s;
+       -o-transition: all linear 0.3s;
+}
+   .common-p:hover{
+       color: red;
+   }
+   .c2h{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 20px;
+ }
+
+
+
+                            /* ============================================
+
+                            common css ends
+
+                            ===============================================*/
+
+  
+   .end .footer .footer-content .content2{
+       width: 165px;
+       height: 400px;
+    
+       float: left;
+       margin-right: 60px;
+   }
+  
+
+                             /* ============================================
+
+                            content 2 css ends
+
+                            ===============================================*/
+
+   .end .footer .footer-content .content3{
+       width: 165px;
+       height: 400px;
+      
+       float: left;
+       margin-right: 60px;
+   }
+                         /* ============================================
+
+                            content 3 css ends
+
+                            ===============================================*/
+   .end .footer .footer-content .content4{
+       width: 170px;
+       height: 400px;
+     
+       float: left;
+   }
+   .end .footer .footer-content .content4 .c2h3{
+       color: white;
+       font-size: 25px;
+       padding-bottom: 30px;
+       padding-top: 5px;
+   }
+
+            /* ==========================================
+            content 4 css ends
+            =================================================*/
+
+
+   .end .footer .footer-content .content5{
+       width: 300px;
+       height: 400px;
+       
+       float: left;
+       margin-left: 40px;
+   }
+   .end .footer .footer-content .content5 .c5p{
+       color: white;
+       font-size: 20px;
+       padding-bottom: 15px;
+   }
+   .end .footer .footer-content .content5 .email{
+       width: 300px;
+       height: 80px;
+       background-color: #fff;
+      margin: 20px 0;
+   }
+ 
+   .email .e-c1{
+       width: 230px;
+       height: 80px;
+       float: left;
+   }
+ 
+    input[type="email"]{
+        border: none;
+        width: 220px;
+        height: 80px;
+        padding-left: 10px;
+    1
+    }
+   .email .e-c2{
+        width: 70px;
+        height: 80px;
+        background-color: #FF5A3c;
+        float: left;
+        transition:  all linear 0.2s;
+        -webkit-transition:  all linear 0.2s;
+        -moz-transition:  all linear 0.2s;
+        -ms-transition:  all linear 0.2s;
+        -o-transition:  all linear 0.2s;
+}
+   .email .e-c2:hover{
+       background-color: black;
+   }
+
+   .email .e-c2 .submit{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+   
+   }
+   .aaaa{
+       display: inline-block;
+       color: white;
+       font-size: 25px;
+       padding-top: 20px;
+       }
+  .a4{
+      width: 290px;
+      padding-top: 20px;
+      
+  }
+
+ /* ==================================================================================== 
+     THE END                THE END              THE END                  THE END
+  ===================================================================================== */
+   
